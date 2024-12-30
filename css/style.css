@@ -1,0 +1,50 @@
+body {
+   background-image: url(../img/fondo1.jpg);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    text-align: center;
+    background-color:pink;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color:black;
+   
+}
+p{
+    color: deeppink;
+}
+img{
+    width:250px;
+    height: 250px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    border: none;
+    font-size:18px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #ff4f4f;
+}
+
